@@ -17,6 +17,12 @@ function App() {
         <Sobre
           envelopeImage="images/sobre.webp"
           songSrc="cancion.mp3"
+          topContent={(
+            <div style={{ textAlign: 'center', color: '#fff', marginBottom: 8 }}>
+              <div style={{ fontFamily: 'Lora, serif', fontSize: 'clamp(14px, 3.4vw, 22px)', letterSpacing: 4 }}>NOS CASAMOS</div>
+              <div style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(40px, 9vw, 72px)', lineHeight: 1.1 }}>Dara &amp; Andro</div>
+            </div>
+          )}
         >
           <Hero
             groomName="Dara"

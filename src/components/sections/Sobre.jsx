@@ -18,6 +18,7 @@ export default function Envelope({
   envelopeImage,
   envelopeWidth = 700,
   songSrc,
+  topContent,
   children,
 }) {
   const [opened, setOpened] = useState(false);
@@ -78,6 +79,7 @@ export default function Envelope({
             }}
           >
             {/* Imagen del sobre: aquí se controla el tamaño y aquí va el click */}
+            {topContent}
             {envelopeImage && (
               <motion.img
                 src={envelopeImage}
