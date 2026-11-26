@@ -19,8 +19,8 @@ function App() {
           songSrc="cancion.mp3"
         >
           <Hero
-            groomName="Dalila"
-            brideName="Pedro"
+            groomName="Dara"
+            brideName="Andro"
             weddingDate="2027-03-30T14:30:00"
             backgroundImage='images/PedroyDalila-18.webp'
             dividerSrc="images/hero.svg"
