@@ -1,0 +1,52 @@
+:root {
+  /* Colores principales - Dalia */
+  --dalia-cream: #F7F0E4;
+  --dalia-ink: #211D18;
+  --dalia-pine: #2F3B26;
+  --dalia-vino: #7C2836;
+  --dalia-oro: #C89B3C;
+  --dalia-terracota: #B36A3C;
+
+  /* Acentos vibrantes (de la sesión de fotos) */
+  --dalia-fucsia: #E91E63;
+  --dalia-naranja: #F15A29;
+  --dalia-turquesa: #00A8E8;
+
+  /* Tipografía */
+  --font-display: "Great Vibes", cursive;
+  --font-serif: "Lora", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--dalia-cream);
+  color: var(--dalia-ink);
+}
+
+.app-frame {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--dalia-cream);
+  display: flex;
+  justify-content: center;
+}
+
+.app-card {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .app-card {
+    max-width: 480px;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: 0 30px 60px -20px rgba(33, 29, 24, 0.35);
+  }
+}
